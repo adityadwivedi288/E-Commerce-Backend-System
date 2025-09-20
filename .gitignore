@@ -1,0 +1,40 @@
+# Node modules (dependencies) 
+node_modules/
+
+# Environment variables (secret keys, passwords)
+.env
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Build / Dist files (agar aap production build karte ho)
+dist/
+build/
+
+# Coverage reports (agar testing tools use ho)
+coverage/
+
+# Temporary files
+*.tmp
+*.swp
+
+# IDE / Editor settings
+.vscode/
+.idea/
+
+# OS-specific
+ehthumbs.db
+desktop.ini
+
+# Optional: lock files (agar aap sab team members ko same package manager use karna force nahi karna chahte)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
